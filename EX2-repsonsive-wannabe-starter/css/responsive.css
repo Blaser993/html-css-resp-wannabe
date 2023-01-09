@@ -4,12 +4,14 @@
 @media screen and (max-width: 480px) {
 
     .lessons .row {
+        display: flex;
         flex-wrap: wrap;
+        row-gap: 4rem;
     }
 
     .lessons .col {
         flex-basis: 100%;
     }
+        
 
 }
-
