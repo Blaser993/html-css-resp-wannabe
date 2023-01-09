@@ -3,6 +3,8 @@
 
 @media screen and (max-width: 480px) {
 
+    /* LESSONS SECTION */
+
     .lessons .row {
         display: flex;
         flex-wrap: wrap;
@@ -13,5 +15,20 @@
         flex-basis: 100%;
     }
         
+    /* STEPS SECTION */
 
+    .steps .row {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 4rem;
+    }  
+
+    .steps .col {
+        flex-basis: 100%;
+    }
+
+
+    /* WHY US SECTION */
+
+    
 }
