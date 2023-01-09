@@ -3,7 +3,13 @@
 
 @media screen and (max-width: 480px) {
 
+    .lessons .row {
+        flex-wrap: wrap;
+    }
 
+    .lessons .col {
+        flex-basis: 100%;
+    }
 
 }
 
