@@ -6,7 +6,6 @@
     /* LESSONS SECTION */
 
     .lessons .row {
-        display: flex;
         flex-wrap: wrap;
         row-gap: 4rem;
     }
@@ -18,7 +17,6 @@
     /* STEPS SECTION */
 
     .steps .row {
-        display: flex;
         flex-wrap: wrap;
         row-gap: 4rem;
     }  
@@ -29,6 +27,21 @@
 
 
     /* WHY US SECTION */
+     
+    .why-us .row {
+        flex-wrap: wrap;
+        row-gap: 4rem;
+    } 
 
-    
+    .why-us .row :first-child {
+        width: 100%;
+    }
+
+    .why-us .row :last-child {
+        width: 100%;
+    }
+
+
+
+
 }
